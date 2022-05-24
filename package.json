@@ -1,0 +1,41 @@
+{
+  "name": "barnowl-impinj",
+  "homepage": "https://github.com/reelyactive/barnowl-impinj/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Collect ambient RAIN RFID data from Impinj readers.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "Impinj",
+    "raddec"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowlimpinj.js",
+  "scripts": {
+    "start": "node bin/barnowl-impinj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-impinj.git"
+  },
+  "dependencies": {
+    "advlib-identifier": ">=0.1.0",
+    "raddec": ">=0.2.8"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-impinj/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
