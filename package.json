@@ -25,7 +25,7 @@
     "url": "https://github.com/reelyactive/barnowl-impinj.git"
   },
   "dependencies": {
-    "raddec": ">=0.3.0"
+    "raddec": ">=0.3.1"
   },
   "devDependencies": {},
   "bugs": {
