@@ -106,6 +106,20 @@ barnowl.addListener(BarnowlImpinj, {}, BarnowlImpinj.TestListener, {});
 ```
 
 
+Required Impinj IoT Device Interface fields
+-------------------------------------------
+
+In order to populate the __raddec__ data structure, the following fields must be selected in the reader's Event Configuration:
+
+| Field           | Corresponding raddec property     | 
+|:----------------|:----------------------------------|
+| Reader Hostname | receiverId & receiverIdType       |
+| EPC or TID      | transmitterId & transmitterIdType |
+| Antenna Port    |                                   |
+| Last seen time  | timestamp                         |
+| Peak RSSI       | rssi                              |
+
+
 Is that owl you can do?
 -----------------------
 
