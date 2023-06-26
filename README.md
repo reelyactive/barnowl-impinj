@@ -58,6 +58,7 @@ From the same folder as the server.js file, install package dependencies with th
     {
       receiverId: "001625ffffff",
       receiverIdType: 2,
+      receiverAntenna: 3,
       rssi: -42,
       numberOfDecodings: 1
     }
@@ -115,7 +116,7 @@ In order to populate the __raddec__ data structure, the following fields must be
 |:----------------|:----------------------------------|
 | Reader Hostname | receiverId & receiverIdType       |
 | EPC or TID      | transmitterId & transmitterIdType |
-| Antenna Port    |                                   |
+| Antenna Port    | receiverAntenna                   |
 | Last seen time  | timestamp                         |
 | Peak RSSI       | rssi                              |
 
